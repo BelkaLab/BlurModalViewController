@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		817884C31CECC3F100EDFBB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817884C21CECC3F100EDFBB9 /* AppDelegate.swift */; };
+		817884C51CECC3F100EDFBB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817884C41CECC3F100EDFBB9 /* ViewController.swift */; };
+		817884C81CECC3F100EDFBB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817884C61CECC3F100EDFBB9 /* Main.storyboard */; };
+		817884CA1CECC3F100EDFBB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817884C91CECC3F100EDFBB9 /* Assets.xcassets */; };
+		817884CD1CECC3F100EDFBB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817884CB1CECC3F100EDFBB9 /* LaunchScreen.storyboard */; };
+		817884D71CECC61D00EDFBB9 /* BlurVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817884D61CECC61D00EDFBB9 /* BlurVC.swift */; };
+		818A121E1CEDBFEB00282273 /* BlurTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818A121D1CEDBFEB00282273 /* BlurTVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		817884BF1CECC3F100EDFBB9 /* BlurModalViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurModalViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		817884C21CECC3F100EDFBB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		817884C41CECC3F100EDFBB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		817884C71CECC3F100EDFBB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		817884C91CECC3F100EDFBB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		817884CC1CECC3F100EDFBB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		817884CE1CECC3F100EDFBB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		817884D61CECC61D00EDFBB9 /* BlurVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurVC.swift; sourceTree = "<group>"; };
+		818A121D1CEDBFEB00282273 /* BlurTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurTVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		817884BC1CECC3F100EDFBB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		817884B61CECC3F100EDFBB9 = {
+			isa = PBXGroup;
+			children = (
+				817884C11CECC3F100EDFBB9 /* BlurModalViewController */,
+				817884C01CECC3F100EDFBB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		817884C01CECC3F100EDFBB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				817884BF1CECC3F100EDFBB9 /* BlurModalViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		817884C11CECC3F100EDFBB9 /* BlurModalViewController */ = {
+			isa = PBXGroup;
+			children = (
+				817884C21CECC3F100EDFBB9 /* AppDelegate.swift */,
+				817884C41CECC3F100EDFBB9 /* ViewController.swift */,
+				817884C61CECC3F100EDFBB9 /* Main.storyboard */,
+				817884C91CECC3F100EDFBB9 /* Assets.xcassets */,
+				817884CB1CECC3F100EDFBB9 /* LaunchScreen.storyboard */,
+				817884CE1CECC3F100EDFBB9 /* Info.plist */,
+				817884D61CECC61D00EDFBB9 /* BlurVC.swift */,
+				818A121D1CEDBFEB00282273 /* BlurTVC.swift */,
+			);
+			path = BlurModalViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		817884BE1CECC3F100EDFBB9 /* BlurModalViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 817884D11CECC3F100EDFBB9 /* Build configuration list for PBXNativeTarget "BlurModalViewController" */;
+			buildPhases = (
+				817884BB1CECC3F100EDFBB9 /* Sources */,
+				817884BC1CECC3F100EDFBB9 /* Frameworks */,
+				817884BD1CECC3F100EDFBB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlurModalViewController;
+			productName = BlurModalViewController;
+			productReference = 817884BF1CECC3F100EDFBB9 /* BlurModalViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		817884B71CECC3F100EDFBB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Belka;
+				TargetAttributes = {
+					817884BE1CECC3F100EDFBB9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 817884BA1CECC3F100EDFBB9 /* Build configuration list for PBXProject "BlurModalViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 817884B61CECC3F100EDFBB9;
+			productRefGroup = 817884C01CECC3F100EDFBB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				817884BE1CECC3F100EDFBB9 /* BlurModalViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		817884BD1CECC3F100EDFBB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817884CD1CECC3F100EDFBB9 /* LaunchScreen.storyboard in Resources */,
+				817884CA1CECC3F100EDFBB9 /* Assets.xcassets in Resources */,
+				817884C81CECC3F100EDFBB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		817884BB1CECC3F100EDFBB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817884C51CECC3F100EDFBB9 /* ViewController.swift in Sources */,
+				817884D71CECC61D00EDFBB9 /* BlurVC.swift in Sources */,
+				818A121E1CEDBFEB00282273 /* BlurTVC.swift in Sources */,
+				817884C31CECC3F100EDFBB9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		817884C61CECC3F100EDFBB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				817884C71CECC3F100EDFBB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		817884CB1CECC3F100EDFBB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				817884CC1CECC3F100EDFBB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		817884CF1CECC3F100EDFBB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		817884D01CECC3F100EDFBB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		817884D21CECC3F100EDFBB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlurModalViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.belka.BlurModalViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		817884D31CECC3F100EDFBB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlurModalViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = us.belka.BlurModalViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		817884BA1CECC3F100EDFBB9 /* Build configuration list for PBXProject "BlurModalViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817884CF1CECC3F100EDFBB9 /* Debug */,
+				817884D01CECC3F100EDFBB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		817884D11CECC3F100EDFBB9 /* Build configuration list for PBXNativeTarget "BlurModalViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817884D21CECC3F100EDFBB9 /* Debug */,
+				817884D31CECC3F100EDFBB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 817884B71CECC3F100EDFBB9 /* Project object */;
+}
