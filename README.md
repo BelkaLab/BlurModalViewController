@@ -1,5 +1,8 @@
 # BlurModalViewController Tutorial 
 
+This is example code of the tutorial you can find at http://belka.us/en/modal-uiviewcontroller-blur-background-swift/.
+Clone it and have fun!
+
 
 ## License
 BlurModalViewController is Copyright (c) 2016 Belka, srl. It is free software, and may be redistributed under the terms specified in the LICENSE file.  
